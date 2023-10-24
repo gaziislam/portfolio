@@ -1,0 +1,57 @@
+.home-bg {
+  height: 100vh;
+  background: linear-gradient(60deg, #f1c40f 30%, transparent 10%);
+}
+
+.home-wraper {
+  padding: 30px;
+  height: 100%;
+  display: flex;
+  /* flex: 1 1 80px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .home-wraper > :last-child {
+  width: 70px;
+  background-color: blueviolet;
+} */
+
+.portfolio-img {
+  width: 300px;
+  height: 400px;
+  background-image: url("./home-assets/hardy.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-color: #0c0c1d;
+  border-radius: 6%;
+  margin-left: 90px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 24px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 24px 7px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 24px 7px rgba(0, 0, 0, 0.75);
+  z-index: 1;
+}
+
+.home-text {
+  width: 400px;
+}
+
+.menu {
+  position: sticky;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu ul li {
+  cursor: pointer;
+  font-size: 20px;
+  color: #ffff;
+}
